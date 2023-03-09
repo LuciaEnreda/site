@@ -1,6 +1,30 @@
 // Enter any custom Sass in this file.
-.navbar {
-    div {
-        background-color: blue;
-    }
+
+//HEADER STYLES
+.container, .container-md, .container-sm{
+margin: 0;
+}
+
+
+.d-flex {
+  background-color: #32c0e3;
+  padding: 3px 0;
+}
+
+.container-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    img{
+        height: 100px;
+        margin: 20px 0;
+     }
+}
+.navbar-collapse{
+    padding-left: 30px;
+}
+
+.language-toggle-container{
+    padding-right: 30px;
 }
