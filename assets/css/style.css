@@ -28,9 +28,6 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
 .container, .container-md, .container-sm {
   margin: 0; }
-  @media screen {
-    .container, .container-md, .container-sm {
-      max-width: 100vw; } }
 
 .d-flex {
   background-color: #32c0e3;
@@ -39,8 +36,7 @@
 .container-image {
   display: flex;
   justify-content: center;
-  align-content: center;
-  width: 100%; }
+  align-content: center; }
   .container-image img {
     height: 100px;
     margin: 20px 0; }
@@ -54,8 +50,7 @@
 #main-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 0 50px; }
+  justify-content: center; }
   @media only screen and (min-width: 700px) {
     #main-content {
       display: flex;
@@ -78,28 +73,28 @@
 
 .site-intro {
   width: 100%;
-  margin-top: 40px;
+  margin: 40px 0;
   display: flex; }
+  .site-intro .intro {
+    flex-basis: 80%; }
   .site-intro .description {
     margin-top: 30px;
-    font-size: 21px;
-    flex-basis: 70%;
+    font-size: 25px;
     text-align: justify;
+    letter-spacing: 0,5px;
+    line-height: 5px;
     text-justify: inter-word; }
   @media only screen and (min-width: 700px) {
     .site-intro {
       padding-right: 300px;
       min-height: 180px;
       background: url("../img/SDG Wheel_Transparent-01.png");
-      background-position: right 60px top;
+      background-position: right 60px  center;
       background-size: 180px;
       background-repeat: no-repeat; } }
 
 .container, .container-md, .container-sm {
   margin: 0; }
-  @media screen {
-    .container, .container-md, .container-sm {
-      max-width: 100vw; } }
 
 .d-flex {
   background-color: #32c0e3;
@@ -108,8 +103,7 @@
 .container-image {
   display: flex;
   justify-content: center;
-  align-content: center;
-  width: 100%; }
+  align-content: center; }
   .container-image img {
     height: 100px;
     margin: 20px 0; }
@@ -123,8 +117,7 @@
 #main-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 0 50px; }
+  justify-content: center; }
   @media only screen and (min-width: 700px) {
     #main-content {
       display: flex;
