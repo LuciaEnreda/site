@@ -36,7 +36,8 @@
 .container-image {
   display: flex;
   justify-content: center;
-  align-content: center; }
+  align-content: center;
+  margin: auto; }
   .container-image img {
     height: 100px;
     margin: 20px 0; }
@@ -103,7 +104,8 @@
 .container-image {
   display: flex;
   justify-content: center;
-  align-content: center; }
+  align-content: center;
+  margin: auto; }
   .container-image img {
     height: 100px;
     margin: 20px 0; }
