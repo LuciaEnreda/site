@@ -1,13 +1,17 @@
 .site-intro {
   width: 100%;
-  margin-top: 40px;
+  margin: 40px 0;
   display: flex;
+ .intro {
+  flex-basis: 80%;
 
+ }
   .description {
     margin-top: 30px;
-    font-size: 21px;
-    flex-basis: 70%;
+    font-size: 25px;
     text-align: justify;
+    letter-spacing: 0,5px;
+    line-height: 5px;
     text-justify: inter-word;
   }
 
@@ -16,7 +20,7 @@
     min-height: 180px;
 
     background: url("../img/SDG Wheel_Transparent-01.png");
-    background-position: right 60px top;
+    background-position: right 60px  center;
     background-size: 180px;
     background-repeat: no-repeat;
   }
