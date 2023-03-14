@@ -2651,8 +2651,39 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 .navbar-nav {
   margin: 0; }
 
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: 200; }
+
 .header-toggles a {
   margin: 0 0 0 5px; }
 
 .language-toggle-container {
   margin: 0; }
+
+.site-intro {
+  background-position: right 60px center;
+  background-size: 160px;
+  margin-top: 60px; }
+  .site-intro h1 {
+    margin-bottom: 15px; }
+
+.frontpage-goals-grid {
+  margin: 40px 0 20px 0;
+  border-top: 2px solid #007dbc; }
+  .frontpage-goals-grid h2 {
+    margin: 40px 0; }
+
+.footer {
+  border-top: 2px solid #007dbc; }
+
+.footer-text {
+  margin-top: 30px; }
+
+.logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .logos-container img {
+    height: 120px;
+    padding: 20px 0; }
