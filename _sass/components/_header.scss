@@ -1,0 +1,49 @@
+//Logo image
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  img {
+    width: 300px;
+  }
+}
+
+
+//Menú nav-bar
+#menu {
+  margin: 0;
+}
+.d-flex{
+  background-color: #32c0e3;
+  align-items: center;
+  padding: 5px 30px;
+}
+.no-js-language-toggle {
+  display: none;
+}
+.container-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  img {
+    height: 100px;
+    margin: 20px 0;
+  }
+}
+
+.navbar-nav {
+    margin: 0;
+}
+.header-toggles {
+
+    a {
+      margin: 0 0 0 5px;
+    }
+  }
+
+.language-toggle-container {
+  margin: 0;
+
+}
