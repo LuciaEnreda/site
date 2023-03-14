@@ -2670,12 +2670,14 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 
 .frontpage-goals-grid {
   margin: 40px 0 20px 0;
+  padding-top: 40px;
   border-top: 2px solid #007dbc; }
   .frontpage-goals-grid h2 {
     margin: 40px 0; }
 
 .footer {
-  border-top: 2px solid #007dbc; }
+  border-top: 2px solid #007dbc;
+  margin-top: 40px; }
 
 .footer-text {
   margin-top: 30px; }
