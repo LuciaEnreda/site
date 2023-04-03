@@ -120,7 +120,7 @@ ignored_disaggregations: []
 indicator_config_form:
   enabled: true
   dropdowns: []
-  repository_link: /tree/develop/indicator-config
+  repository_link: "https://github.com/LuciaEnreda/data"
   translation_link: ""
 indicator_data_form:
   enabled: true
