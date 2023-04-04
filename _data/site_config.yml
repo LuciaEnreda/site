@@ -133,7 +133,6 @@ indicator_metadata_form:
   language: ""
   scopes:
     - national
-    - global
   exclude_fields: 
     - composite_breakdown_label
     - computation_units
@@ -154,6 +153,7 @@ indicator_metadata_form:
     - graph_annotations
     - graph_limits
     - graph_stacked_disaggregation
+    - ORGANISATION_UNIT
   translated: false
 indicator_tabs:
   tab_1: ""
