@@ -2126,28 +2126,4 @@
           "status": "notstarted"
         }]
     }
-  },
-  {
-    "goal": {
-      "id": "indicator_1",
-      "title": "global_goals.indicator_1-title",
-      "indicators": [
-        
-        {
-          "id": "indicator_1-1-1",
-          "title": "global_indicators.indicator_1-1-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/indicator_1-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "indicator_1-1-2",
-          "title": "global_indicators.indicator_1-1-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/indicator_1-1-2",
-          "status": "notstarted"
-        }]
-    }
   }]
