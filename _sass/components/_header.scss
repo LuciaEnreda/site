@@ -36,6 +36,17 @@
 .navbar-nav {
     margin: 0;
 }
+@media only screen and (max-width: 767px) {
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    display: block;
+    background-color: blue;
+    /* background: red; */
+    border: 2px solid black;
+    align-items: center;
+  }
+}
 .navbar-light .navbar-nav .nav-link {
   color:black;
   font-weight: 200;
