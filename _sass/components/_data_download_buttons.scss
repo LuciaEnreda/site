@@ -8,3 +8,10 @@
 .btn-download:hover{
     background-color: #1c6d9c !important;
 }
+
+//Centrado los botones//
+
+#chartSelectionDownload, #tableSelectionDownload {
+  text-align: center;
+  display: block;
+}
