@@ -197,12 +197,12 @@ metadata_tabs:
   - scope: national
     title: indicator.national_metadata
     description: indicator.national_metadata_blurb
-  - scope: global
-    title: indicator.global_metadata
-    description: indicator.global_metadata_blurb
-  - scope: sources
-    title: indicator.sources
-    description: ""
+  # - scope: global
+  #   title: indicator.global_metadata
+  #   description: indicator.global_metadata_blurb
+  # - scope: sources
+  #   title: indicator.sources
+  #   description: ""
 news:
   category_links: false
 progress_status:
@@ -217,7 +217,7 @@ reporting_status:
   status_types:
     - value: notstarted
       label: status.exploring_data_sources
-      hide_on_goal_pages: false
+      hide_on_goal_pages: true
     - value: complete
       label: status.reported_online
       hide_on_goal_pages: false
