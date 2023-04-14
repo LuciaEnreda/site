@@ -2724,10 +2724,14 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 .backToTop {
   background-color: #1c6d9c;
   padding: 5px;
-  display: inline-block;
+  display: inline-flex;
   color: white;
-  border: 1px solid black;
-  border-radius: 8.5px; }
+  border-radius: 8.5px;
+  justify-content: center;
+  align-items: center;
+  width: 150px; }
+  .backToTop svg {
+    margin-right: 7px; }
 
 .app-c-back-to-top__icon {
   display: none; }
