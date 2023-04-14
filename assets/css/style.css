@@ -2690,5 +2690,18 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     height: 120px;
     padding: 20px 0 40px 0; }
 
-.backToTop {
-  border: 1px solid black; }
+#main-content a[href="#top"] {
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-right: 15px;
+  text-align: right;
+  width: 100%; }
+  #main-content a[href="#top"] .app-c-back-to-top__icon {
+    margin-right: .3em;
+    width: .8em;
+    height: .968em;
+    margin-bottom: 3px; }
+
+#top:focus {
+  outline: none !important; }
