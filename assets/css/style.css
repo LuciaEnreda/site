@@ -2735,3 +2735,13 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 
 .app-c-back-to-top__icon {
   display: none; }
+
+.btn-download {
+  background-color: #1c6d9c !important; }
+
+.btn-download:hover {
+  background-color: #1c6d9c !important; }
+
+#chartSelectionDownload, #tableSelectionDownload {
+  text-align: center;
+  display: block; }
