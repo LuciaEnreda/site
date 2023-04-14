@@ -2721,18 +2721,13 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     height: 120px;
     padding: 20px 0 40px 0; }
 
-#main-content a[href="#top"] {
+.backToTop {
+  background-color: #1c6d9c;
+  padding: 5px;
   display: inline-block;
-  margin-bottom: 15px;
-  margin-top: 30px;
-  margin-right: 15px;
-  text-align: right;
-  width: 100%; }
-  #main-content a[href="#top"] .app-c-back-to-top__icon {
-    margin-right: .3em;
-    width: .8em;
-    height: .968em;
-    margin-bottom: 3px; }
+  color: white;
+  border: 1px solid black;
+  border-radius: 8.5px; }
 
-#top:focus {
-  outline: none !important; }
+.app-c-back-to-top__icon {
+  display: none; }
