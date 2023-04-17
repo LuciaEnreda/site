@@ -15,7 +15,7 @@
   margin: 0;
 }
 .d-flex{
-  background-color: #32c0e3;
+  background-color: $menu-nav-backgroundColors;
   align-items: center;
   padding: 5px 30px;
 }
@@ -79,7 +79,7 @@
     flex-grow: 1;
     display: block;
     display: inline-block;
-    background-color: #32c0e3;
+    background-color: $menu-nav-backgroundColors;
     border: 1px solid grey;
     align-items: center;
   }
