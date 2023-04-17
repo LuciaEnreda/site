@@ -2,11 +2,11 @@
 //Boton para descargar los datos//
 
 .btn-download { 
-    background-color: #1c6d9c !important;
+    background-color: $button-background !important;
   }
 //Controlar el color cuando pasas el raton//
 .btn-download:hover{
-    background-color: #1c6d9c !important;
+    background-color: $button-backgroundc !important;
 }
 
 //Centrado los botones//
