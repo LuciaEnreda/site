@@ -239,5 +239,5 @@ time_series_attributes:
   - field: DATA_LAST_UPDATE
     label: metadata_fields.national_data_update_url
 validate_indicator_config: true
-validate_site_config: true
+validate_site_config: false
 x_axis_label: ""
