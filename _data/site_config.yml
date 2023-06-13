@@ -180,9 +180,9 @@ menu:
   - path: /goals
     translation_key: general.goals
     dropdown: []
-  # - path: /reporting-status
-  #   translation_key: menu.reporting_status
-  #   dropdown: []
+  - path: /reporting-status
+    translation_key: menu.reporting_status
+    dropdown: []
   - path: /about
     translation_key: menu.about
     dropdown: []
