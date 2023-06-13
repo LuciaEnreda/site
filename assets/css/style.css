@@ -2632,7 +2632,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   margin: 0; }
 
 .d-flex {
-  background-color: #32c0e3;
+  background-color: upo-secondaryColor;
   align-items: center;
   padding: 5px 30px; }
 
@@ -2677,7 +2677,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     flex-grow: 1;
     display: block;
     display: inline-block;
-    background-color: #32c0e3;
+    background-color: upo-secondaryColor;
     border: 1px solid grey;
     align-items: center; } }
 @media only screen and (min-width: 991px) {
