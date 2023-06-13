@@ -2615,11 +2615,11 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   #search input {
     width: 33ch;
     border: 1.25px solid black;
-    background-color: upo-primaryColor; }
+    background-color: #002569; }
   #search button {
     color: white;
-    background-color: upo-primaryColor;
-    border: 1.25px solid #1c6d9c; }
+    background-color: #002569;
+    border: 1.25px solid #002569; }
 
 .logo {
   display: flex;
@@ -2632,7 +2632,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   margin: 0; }
 
 .d-flex {
-  background-color: upo-secondaryColor;
+  background-color: #FFC726;
   align-items: center;
   padding: 5px 30px; }
 
@@ -2677,7 +2677,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     flex-grow: 1;
     display: block;
     display: inline-block;
-    background-color: upo-secondaryColor;
+    background-color: #FFC726;
     border: 1px solid grey;
     align-items: center; } }
 @media only screen and (min-width: 991px) {
@@ -2720,6 +2720,9 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   .logos-container img {
     height: 120px;
     padding: 20px 0 40px 0; }
+
+.Sdglogo {
+  witdh: 200px; }
 
 .backToTop {
   background-color: #1c6d9c;
